@@ -1,0 +1,44 @@
+
+.section {
+	background: url(../img/backGround.jpg) no-repeat;
+}
+
+.one header {
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 80px;
+}
+
+.one header .header-l li {
+	float: left;
+	margin-left:40px; 
+	width: 70px;
+	height: 80px;
+	text-align: center;
+}
+
+.one header .header-l li img {
+	margin-top: 5px;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+}
+
+.one header .header-l li span {
+	display: block;
+	margin-top: 10px;
+}
+
+.one header .header-r {
+	line-height: 80px;	
+	margin-right: 50px;
+}
+
+.one header .header-r li {
+	float: left;
+	font-size: 16px;
+} 
+
+.one header .header-r li a {
+	display: block;
+	margin-left: 30px;
+} 
