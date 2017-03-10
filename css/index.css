@@ -90,10 +90,70 @@ header .header-r li a {
 	margin: auto;
 	width: 800px;
 	height: 200px;
-	border: 1px solid #000;
 	text-align: center;
 }
 
 .two .about {
 	margin-top: 50px;
+	font-size: 18px;
+}
+
+.two .about hr {
+	width: 150px;
+}
+
+.two .about span {
+	color: red;
+}
+
+.two .about .mesege {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 700px;
+	height: 200px;
+	background-color: rgba(160,160,180,0.8);
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.two .about .mesege .about_list {
+	float: left;
+	margin: 20px 0 0 75px;
+	width: 80px;
+}
+
+.two .about .mesege .about_list .about_list_eg {
+	height: 80px;
+	background: rgb(255,255,255) 0 0 no-repeat;
+	border-radius: 50%
+}
+.two .about .mesege .about_list .about_list_eg:before {
+	display: block;
+	line-height: 130px;
+	text-align: center;
+}
+
+.two .about .mesege .about_list .about-text {
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+}
+.two .about .mesege .about_list .about-text hr {
+	transform:rotateZ(-25deg);
+	width: 80px;
+	margin: 10px 0;
+}
+
+.two .about .mesege .about_list .photo1:before {
+	content: url(../img/education.png);
+}
+.two .about .mesege .about_list .photo2:before {
+	content: url(../img/age.png);
+}
+.two .about .mesege .about_list .photo3:before {
+	content: url(../img/location.png);
+}
+.two .about .mesege .about_list .photo4:before {
+	content: url(../img/status.png);
 }
