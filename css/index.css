@@ -1,46 +1,53 @@
 
+
 .section {
 	background: url(../img/backGround.jpg) no-repeat;
 }
 
 /* 第一页 */
 /* 头部 */
-.one header {
+header {
 	background-color: rgba(0, 0, 0, 0.6);
-	height: 80px;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
 }
 
-.one header .header-l li {
+header .header-l li {
 	float: left;
 	margin-left:40px; 
 	width: 70px;
-	height: 80px;
+	height: 60px;
 	text-align: center;
 }
 
-.one header .header-l li img {
-	margin-top: 5px;
+header .header-l li img {
+	margin-top: 2px;
 	border-radius: 50%;
-	height: 70px;
-	width: 70px;
+	height: 55px;
+	width: 55px;
 }
 
-.one header .header-l li span {
+header .header-l li span {
 	display: block;
-	margin-top: 10px;
+	color: #ccc;
+	margin-top: 3px;
 }
 
-.one header .header-r {
-	line-height: 80px;	
+header .header-r {
+	line-height: 60px;	
 	margin-right: 50px;
 }
 
-.one header .header-r li {
+header .header-r li {
 	float: left;
 	font-size: 16px;
 } 
 
-.one header .header-r li a {
+header .header-r li a {
 	display: block;
 	margin-left: 30px;
 } 
@@ -60,7 +67,6 @@
 .one section span {
 	color: #000;
 	font-size: 16px;
-	font-weight: 700;
 }
 
 .one section hr {
@@ -73,4 +79,21 @@
 	margin-top: 25px;
 	color: #000;
 	font-size: 16px;
+}
+
+/* 第二页 */
+.two {
+
+}
+
+.two section {
+	margin: auto;
+	width: 800px;
+	height: 200px;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.two .about {
+	margin-top: 50px;
 }

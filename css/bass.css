@@ -5,7 +5,8 @@ fieldset,legend,input,button,textarea,p,blockquote,th,td {
 }  
 body { 
 	background:#fff; 
-	color:#ccc; 
+	color:#000; 
+	font-weight: 700;
 	font-size:14px; 
 	font-family: Verdana, Arial, Helvetica, sans-serif; 
 } 
