@@ -88,7 +88,7 @@ header .header-r li a {
 
 .two section {
 	margin: auto;
-	width: 800px;
+	width: 700px;
 	height: 200px;
 	text-align: center;
 }
@@ -110,7 +110,7 @@ header .header-r li a {
 	margin: 0 auto;
 	margin-top: 20px;
 	width: 700px;
-	height: 200px;
+	height: 180px;
 	background-color: rgba(160,160,180,0.8);
 	border-radius: 50px;
 	overflow: hidden;
@@ -156,4 +156,36 @@ header .header-r li a {
 }
 .two .about .mesege .about_list .photo4:before {
 	content: url(../img/status.png);
+}
+
+.two .about .about-info {
+	margin-top: 80px;
+	position: relative;
+	overflow: hidden;
+}
+
+.two .about .about-info:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	border-top: 2px solid #5686D6;
+	border-left: 2px solid #5686D6;
+}
+
+.two .about .about-info p {
+	margin: 15px 0;
+}
+
+.two .about .about-info:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	border-bottom: 2px solid #5686D6;
+	border-right: 2px solid #5686D6;
 }
